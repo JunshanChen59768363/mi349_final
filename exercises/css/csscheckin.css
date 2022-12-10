@@ -1,0 +1,102 @@
+body {
+   font-family: Arial;
+   background-color: #c7d7fb;
+   padding-left: 10vw;
+   padding-right: 10vw;
+}
+
+h1 {
+   color: #090b77;
+   background-color: #6e7cff;
+   text-align: center;
+   padding: 20px;
+   border: 1px solid #6e7cff;
+   border-radius: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+   font-family: 'Chewy', cursive;
+   display: table;
+}
+
+h2 {
+   color: #228676;
+   background-color: #96f0f0;
+   padding: 5px;
+   border: 1px solid #96f0f0;
+   border-radius: 5px;
+   letter-spacing: 0.1em;
+   font-family: 'Fredericka the Great', cursive;
+   display: table;
+}
+
+h3 {
+   letter-spacing: 0.1em;
+   font-family: 'Fredericka the Great', cursive;
+}
+
+p, li, figcaption {
+   padding-left: 20px;
+   padding-right: 20px;
+   line-height: 1.6em;
+   font-family: 'Itim', cursive;
+}
+
+figure {
+   border: 1px solid black;
+   display: table;
+   padding: 3px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+figcaption {
+   text-align: center;
+}
+
+a:link {
+   color: #2c43ac;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #fa5265;
+}
+
+a:hover {
+   color: #2E86C1;
+   text-decoration: none;
+}
+
+a:active {
+   color: gray;
+}
+
+code {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 2px;
+   font-family: 'Courier Prime', monospace;;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+#bar, #time {
+   color: #228676;
+   background-color: #96f0f0;
+   padding: 5px;
+   border: 1px solid #96f0f0;
+   border-radius: 5px;
+   letter-spacing: 0.1em;
+   font-family: 'Fredericka the Great', cursive;
+   display: table;
+}
+
+img {
+   max-width: 80vw;
+}
